@@ -3,3 +3,7 @@
 ehthumbs.db
 Icon?
 Thumbs.db
+
+# vim files
+*.swp
+bundle/*
