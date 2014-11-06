@@ -16,24 +16,42 @@ if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
 let g:airline_symbols.space = "\ua0"
-  
+
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-surround'
 
-" all of your Plugins must be added before the gollowing line
-call vundle#end()          " required
-filetype plugin indent on  " required
+" let g:surround_no_mappings
+" nmap ds  <Plug>Dsurround
+" nmap cs  <Plug>Csurround
+" nmap ys  <Plug>Ysurround
+" nmap yS  <Plug>YSurround
+" nmap yss <Plug>Yssurround
+" nmap ySs <Plug>YSsurround
+" nmap ySS <Plug>YSsurround
+" xmap S   <Plug>VSurround
+" xmap gS  <Plug>VgSurround
 
+" All of you Plugins must be aded before this following line
+call vundle#end()
+filetype plugin indent on
 
-set number               " show line numbers
-set numberwidth=6        " make the number gutter 6 characters wide
-set ruler                " Always show info along bottom.
+set number         " Show line numbers
+set numberwidth=6  " make the number gutter 6 characters wide
+set ruler          " Alway show info along bottom
 
-set t_Co=256 
+set t_Co=256
 syntax enable
 colorscheme Tomorrow-Night
-set background=dark 
+set background=dark
 
 noremap ; :
-" set nowrap 
-set tabpagemax=20
+" set nowrap
+
+set incsearch
+set hlsearch
+
+" Default to tree mode
+let g:netrw_liststyle=3
