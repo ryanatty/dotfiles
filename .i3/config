@@ -27,8 +27,8 @@ font pango:DejaVu Sans Mono 8
 floating_modifier $mod
 
 # Borders
-new_window pixel 0
-hide_edge_borders both
+# new_window pixel 0
+# hide_edge_borders both
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
@@ -159,3 +159,10 @@ bar {
 
 # Startup Programs
 exec conky
+exec feh --randomize --bg-fill ~/.wallpaper/*
+
+# Colors
+client.focused #000000 #000000 #ffffff
+bar.focused #DA6F00 #000000 #999999
+bar.unfocused #333333 #000000 #ffffff
+bar.urgent #FF0000 #000000 #999779
