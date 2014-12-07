@@ -162,7 +162,7 @@ exec conky
 exec feh --randomize --bg-fill ~/.wallpaper/*
 
 # Colors
-client.focused #000000 #000000 #ffffff
-bar.focused #DA6F00 #000000 #999999
-bar.unfocused #333333 #000000 #ffffff
-bar.urgent #FF0000 #000000 #999779
+#client.focused #000000 #000000 #ffffff
+#bar.focused #DA6F00 #000000 #999999
+#bar.unfocused #333333 #000000 #ffffff
+#bar.urgent #FF0000 #000000 #999779
