@@ -1,3 +1,45 @@
-URxvt.depth: 32
-URxvt.background: rgba:1111/1111/1111/dddd
+#include "~/.colors/smlb"
+
 URxvt.scrollstyle: plain
+URxvt.scrollBar: off
+!URxvt*font:           -misc-fixed-medium-r-semicondensed-*-12-90-100-*-c-60-iso8859-1
+URxvt*font:         -*-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
+
+URxvt*termName:rxvt-unicode-256color
+URxvt.jumpScroll: false
+URxvt.saveLines: 32
+URxvt.letterSpace: 0
+URxvt.internalBorder: 2
+URxvt*loginShell: true
+Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: false
+Xft.hinstyle: hintfull
+Xft.lcdfilter: lcddefault
+URxvt*xftAntialias: true
+
+!*mapAlert:         false
+!*visualBell:       galse
+*urgentOnBell:     true
+
+urxvt.perl-ext-common: default,matcher,clipboard,url-select,keyboard-select
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.iso14755: False
+URxvt.matcher.button: 1
+URxvt.colorUL: #2960C7
+!urxvt.depth: 8
+!URxvt.transparent: false
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
+urxvt*secondaryScroll: false
+urxvt*saveLines: 500
+URxvt*keysym.Home: \033[1~
+URxvt*keysym.End: \033[4~
+URxvt.keysym.Shift-Control-C : perl:clipboard:copy
+URxvt.keysym.Shift-Control-V : perl:clipboard:paste
+URxvt.url-select.launcher:  firefox
+URxvt.url-select.underline: true
+
+URxvt.cursorColor: white

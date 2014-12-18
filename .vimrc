@@ -23,16 +23,16 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 
-" let g:surround_no_mappings
-" nmap ds  <Plug>Dsurround
-" nmap cs  <Plug>Csurround
-" nmap ys  <Plug>Ysurround
-" nmap yS  <Plug>YSurround
-" nmap yss <Plug>Yssurround
-" nmap ySs <Plug>YSsurround
-" nmap ySS <Plug>YSsurround
-" xmap S   <Plug>VSurround
-" xmap gS  <Plug>VgSurround
+let g:surround_no_mappings=1
+nmap ds  <Plug>Dsurround
+nmap cs  <Plug>Csurround
+nmap ys  <Plug>Ysurround
+nmap yS  <Plug>YSurround
+nmap yss <Plug>Yssurround
+nmap ySs <Plug>YSsurround
+nmap ySS <Plug>YSsurround
+xmap S   <Plug>VSurround
+xmap gS  <Plug>VgSurround
 
 " All of you Plugins must be aded before this following line
 call vundle#end()
@@ -47,7 +47,10 @@ syntax enable
 colorscheme Tomorrow-Night
 set background=dark
 
-noremap ; :
+" highlight Cursor guifg=white guibg=black
+" highlight iCursor guifg=yellow guibg=black
+
+" noremap ; :
 " set nowrap
 
 set incsearch
