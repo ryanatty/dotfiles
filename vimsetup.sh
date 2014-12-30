@@ -1,5 +1,5 @@
-mkdir ./.vim/bundle/Vundle.vim
-cd ./.vim/bundle/Vundle.vim/
+mkdir ./.vim/bundle/
+cd ./.vim/bundle/
 
 git clone https://github.com/gmarik/Vundle.vim.git
 
