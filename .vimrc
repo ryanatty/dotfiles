@@ -6,16 +6,16 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim' " let Vundle manage Vundle
-
-Plugin 'bling/vim-airline'
-set laststatus=2
-set timeoutlen=50
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts=1
-if !exists('g:airline_symbols')
-  let g:airline_symbols = {}
-endif
-let g:airline_symbols.space = "\ua0"
+ 
+"Plugin 'bling/vim-airline'
+"set laststatus=2
+"set timeoutlen=50
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline_powerline_fonts=1
+"if !exists('g:airline_symbols')
+"  let g:airline_symbols = {}
+"endif
+"let g:airline_symbols.space = "\ua0"
 
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
@@ -42,16 +42,17 @@ set number         " Show line numbers
 set numberwidth=6  " make the number gutter 6 characters wide
 set ruler          " Alway show info along bottom
 
-set t_Co=256
+set autoindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 syntax enable
 colorscheme Tomorrow-Night
 set background=dark
 
 " highlight Cursor guifg=white guibg=black
 " highlight iCursor guifg=yellow guibg=black
-
-" noremap ; :
-" set nowrap
 
 set incsearch
 set hlsearch
