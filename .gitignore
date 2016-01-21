@@ -7,3 +7,6 @@ Thumbs.db
 # vim files
 *.swp
 .vim/bundle/*
+.vim/backups/*
+.vim/swaps/*
+.vim/undo/*
