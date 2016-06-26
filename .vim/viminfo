@@ -18,10 +18,10 @@ $
 
 # Command Line History (newest to oldest):
 :q
+:vs
 :w
 :q!
 :e.
-:vs
 :pu
 :bufdo execute "normal @a" | write
 :W
@@ -1571,12 +1571,13 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	orange
+""0	CHAR	0
+	337
+<At TIM, our investment approach is to stay invested in risk-appropriate, well-diversified, low cost portfolios of stocks and bonds when our long-term indicators are pointing higher (bull markets) and to raise cash to reduce risk and potentially limit losses when our long-term indicators show a downturn (indicative of a bear market).
 "1	LINE	0
 	
 "2	LINE	0
-	Types of Gold Investments : Explained
+	
 "3	LINE	0
 	
 "4	LINE	0
@@ -1584,7 +1585,7 @@ $
 "5	LINE	0
 	
 "6	LINE	0
-	
+	Types of Gold Investments : Explained
 "7	LINE	0
 	
 "8	LINE	0
@@ -1625,13 +1626,17 @@ $
 "z	LINE	0
 	863
 <            styles: [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"on"},{"saturation":-100},{"lightness":20}]},{"featureType":"road","elementType":"all","stylers":[{"visibility":"on"},{"saturation":-100},{"lightness":40}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"on"},{"saturation":-10},{"lightness":30}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":-60},{"lightness":10}]},{"featureType":"landscape.natural","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":-60},{"lightness":60}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"},{"saturation":-100},{"lightness":60}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"},{"saturation":-100},{"lightness":60}]}]
-""-	CHAR	0
+"-	CHAR	0
 	337
 <At TIM, our investment approach is to stay invested in risk-appropriate, well-diversified, low cost portfolios of stocks and bonds when our long-term indicators are pointing higher (bull markets) and to raise cash to reduce risk and potentially limit losses when our long-term indicators show a downturn (indicative of a bear market).
 
 # File marks:
 'I  17  0  ~/Devel/home-treasures/theme/sass/main.scss
+<<<<<<< HEAD
 '0  16  0  ~/.zshrc
+=======
+'0  608  0  ~/.vimrc
+>>>>>>> 81b6e3c128e8ba88bfb15b9c954b674e2a3b6253
 '1  47  237  ~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md
 '2  7  37  ~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md
 '3  363  150  ~/Devel/total-investment/src/vol4/index.php
@@ -1643,8 +1648,15 @@ $
 '9  72  27  ~/Devel/tim-periodical-email/gulpfile.js
 
 # Jumplist (newest first):
+<<<<<<< HEAD
 -'  16  0  ~/.zshrc
 -'  10  0  ~/.zshrc
+=======
+-'  608  0  ~/.vimrc
+-'  27  0  ~/
+-'  8  0  ~/Documents
+-'  8  0  ~/dotfiles
+>>>>>>> 81b6e3c128e8ba88bfb15b9c954b674e2a3b6253
 -'  47  237  ~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md
 -'  19  0  ~/Devel/total-investment/src/_posts
 -'  8  0  ~/Devel/total-investment
@@ -1744,6 +1756,7 @@ $
 -'  19  0  ~/Devel/total-investment/src/_posts
 
 # Buffer list:
+<<<<<<< HEAD
 %~/.zshrc	16	0
 
 # History of marks within files (newest to oldest):
@@ -1754,6 +1767,14 @@ $
 	.	10	0
 	+	56	0
 	+	10	0
+=======
+%~/.vimrc	608	0
+
+# History of marks within files (newest to oldest):
+
+> ~/.vimrc
+	"	608	0
+>>>>>>> 81b6e3c128e8ba88bfb15b9c954b674e2a3b6253
 
 > ~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md
 	"	47	237
@@ -27757,9 +27778,6 @@ $
 
 > ~/Devel/bavaria-sail/.git/index
 	"	16	0
-
-> ~/.vimrc
-	"	624	0
 
 > ~/Devel/home-treasures/theme/templates/customers/addresses.liquid
 	"	69	0

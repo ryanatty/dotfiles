@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/ryan/Devel/total-investment/src'
 let g:netrw_dirhist_2='/Users/ryan/Devel/total-investment/src/vol4'
 let g:netrw_dirhist_3='/Users/ryan/Devel/total-investment/src'
 let g:netrw_dirhist_4='/Users/ryan/Devel/total-investment/src/_posts'
+let g:netrw_dirhist_5='/Users/ryan/dotfiles'
+let g:netrw_dirhist_6='/Users/ryan'
+let g:netrw_dirhist_7='/Users/ryan/Documents'
+let g:netrw_dirhist_8='/Users/ryan'
