@@ -1631,18 +1631,20 @@ $
 
 # File marks:
 'I  17  0  ~/Devel/home-treasures/theme/sass/main.scss
-'0  47  237  ~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md
-'1  7  37  ~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md
-'2  363  150  ~/Devel/total-investment/src/vol4/index.php
-'3  73  21  ~/Devel/tim-periodical-email/gulpfile.js
-'4  11  22  ~/Devel/tim-periodical-email/package.json
-'5  17  27  ~/Devel/tim-periodical-email/package.json
-'6  247  0  ~/Devel/tim-periodical-email/Gruntfile.js
-'7  23  21  ~/Devel/tim-periodical-email/package.json
-'8  72  27  ~/Devel/tim-periodical-email/gulpfile.js
-'9  232  44  ~/Devel/tim-periodical-email/src/index.html
+'0  16  0  ~/.zshrc
+'1  47  237  ~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md
+'2  7  37  ~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md
+'3  363  150  ~/Devel/total-investment/src/vol4/index.php
+'4  73  21  ~/Devel/tim-periodical-email/gulpfile.js
+'5  11  22  ~/Devel/tim-periodical-email/package.json
+'6  17  27  ~/Devel/tim-periodical-email/package.json
+'7  247  0  ~/Devel/tim-periodical-email/Gruntfile.js
+'8  23  21  ~/Devel/tim-periodical-email/package.json
+'9  72  27  ~/Devel/tim-periodical-email/gulpfile.js
 
 # Jumplist (newest first):
+-'  16  0  ~/.zshrc
+-'  10  0  ~/.zshrc
 -'  47  237  ~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md
 -'  19  0  ~/Devel/total-investment/src/_posts
 -'  8  0  ~/Devel/total-investment
@@ -1738,11 +1740,20 @@ $
 -'  31  4  ~/Devel
 -'  9  0  ~/Devel
 -'  5  43  ~/Devel/total-investment/src/_posts/2014-09-03-benefits-of-contributing-to-your-401k.md
+-'  47  237  ~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md
+-'  19  0  ~/Devel/total-investment/src/_posts
 
 # Buffer list:
-%~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md	47	237
+%~/.zshrc	16	0
 
 # History of marks within files (newest to oldest):
+
+> ~/.zshrc
+	"	16	0
+	^	10	2
+	.	10	0
+	+	56	0
+	+	10	0
 
 > ~/Devel/total-investment/src/_posts/2016-06-22-did-you-know-gold-making-headlines.md
 	"	47	237
@@ -25011,13 +25022,6 @@ $
 	"	62	0
 	.	62	0
 	+	62	0
-
-> ~/.zshrc
-	"	10	0
-	^	10	2
-	.	10	0
-	+	56	0
-	+	10	0
 
 > ~/Devel/whitepine/src/ControlP
 	"	2	0
