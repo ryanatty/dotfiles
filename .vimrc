@@ -12,7 +12,7 @@ set nocompatible
 set t_Co=256
 set background=dark
 syntax on
-" colorscheme molotov
+colorscheme solarized
 " }}}
 
 " Mapleader {{{
@@ -160,8 +160,8 @@ augroup general_config
   " }}}
 
   " Hard to type things {{{
-  iabbrev >> →
-  iabbrev << ←
+  "iabbrev >> →
+  " iabbrev << ←
   iabbrev ^^ ↑
   iabbrev VV ↓
   iabbrev aa λ
@@ -480,10 +480,10 @@ augroup END
 " }}}
 
 " Markdown {{{
-augroup filetype_markdown
-  autocmd!
-  let g:markdown_fenced_languages = ['ruby', 'html', 'javascript', 'css', 'erb=eruby.html', 'bash=sh']
-augroup END
+" augroup filetype_markdown
+"   autocmd!
+"   let g:markdown_fenced_languages = ['ruby', 'html', 'javascript', 'css', 'erb=eruby.html', 'bash=sh']
+" augroup END
 " }}}
 
 " Nu {{{
@@ -528,13 +528,16 @@ augroup END
 " Airline.vim {{{
 augroup airline_config
   autocmd!
-  " let g:airline_powerline_fonts = 1
+  let g:airline_powerline_fonts = 1
   let g:airline_enable_syntastic = 1
   let g:airline#extensions#tabline#buffer_nr_format = '%s '
   let g:airline#extensions#tabline#buffer_nr_show = 1
   let g:airline#extensions#tabline#enabled = 1
   let g:airline#extensions#tabline#fnamecollapse = 0
   let g:airline#extensions#tabline#fnamemod = ':t'
+  let g:solarized_base16 = 1
+  let g:airline_solarized_normal_green = 1
+  let g:airline_theme='minimalist'
 augroup END
 " }}}
 
@@ -606,6 +609,44 @@ augroup syntastic_config
 augroup END
 " }}}
 
+" Limelight.vim {{{
+augroup limelight_config
+  autocmd!
+  " Color name (:help cterm-colors) or ANSI code
+  let g:limelight_conceal_ctermfg = 'gray'
+  let g:limelight_conceal_ctermfg = 240
+  
+  " Color name (:help gui-colors) or RGB color
+  let g:limelight_conceal_guifg = 'DarkGray'
+  let g:limelight_conceal_guifg = '#777777'
+  
+  " Default: 0.5
+  let g:limelight_default_coefficient = 0.7
+  
+  " Number of preceding/following paragraphs to include (default: 0)
+  let g:limelight_paragraph_span = 1
+  
+  " Beginning/end of paragraph
+  "   When there's no empty line between the paragraphs
+  "   and each paragraph starts with indentation
+  let g:limelight_bop = '^\s'
+  let g:limelight_eop = '\ze\n^\s'
+  
+  " Highlighting priority (default: 10)
+  "   Set it to -1 not to overrule hlsearch
+  let g:limelight_priority = -1
+augroup END
+" }}}
+
+" Vim-pandoc.vim {{{
+augroup vim_pandoc_config
+  autocmd!
+  let g:pandoc#filetypes#handled = ["pandoc", "markdown"]
+  let g:pandoc#filetypes#pandoc_markdown = 0
+  " let g:pandoc#modules#disabled = ["spell"]
+augroup END
+" }}}
+
 
 " Plugins -------------------------------------------------------------
 
@@ -615,6 +656,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'ap/vim-css-color'
 Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'FelikZ/ctrlp-py-matcher'
 Plug 'guns/vim-clojure-static'
 Plug 'joker1007/vim-ruby-heredoc-syntax'
@@ -628,7 +670,7 @@ Plug 'msanders/snipmate.vim'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'oplatek/Conque-Shell'
-" Plug 'pangloss/vim-javascript'
+Plug 'pangloss/vim-javascript'
 Plug 'rking/ag.vim'
 Plug 'scrooloose/nerdcommenter'
 " Plug 'scrooloose/syntastic'
@@ -636,7 +678,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'thoughtbot/vim-rspec'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-haml'
-Plug 'tpope/vim-markdown',     { 'for': 'markdown' }
+" Plug 'tpope/vim-markdown',     { 'for': 'markdown' }
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
@@ -647,6 +689,9 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'wlangstroth/vim-racket'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-notes'
+Plug 'junegunn/limelight.vim'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
 
 call plug#end()
 " }}}

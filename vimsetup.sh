@@ -1,6 +1,5 @@
-mkdir ./.vim/bundle/
-cd ./.vim/bundle/
+mkdir ~/.vim/backups
+mkdir ~/.vim/swaps
+mkdir ~/.vim/undo
 
-git clone https://github.com/gmarik/Vundle.vim.git
-
-vim +PluginInstall +qall
+vim +PlugInstall
